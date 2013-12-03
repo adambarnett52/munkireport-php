@@ -10,7 +10,6 @@
 
     <?$this->view('widgets/os_widget')?>
 
-    <?$this->view('widgets/age_widget')?>
 
 
   </div> <!-- /row -->
@@ -18,11 +17,11 @@
   <div class="row">
 
     <?$this->view('widgets/hardware_widget')?>
-
+</div>
+<div class="row"
     <?$this->view('widgets/memory_widget')?>
 
 
-    <?$this->view('widgets/network_location_widget')?>
 
   </div> <!-- /row -->
 

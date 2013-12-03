@@ -33,16 +33,16 @@ $obj = current($queryobj->query($sql));
 					
 				<?if($obj):?>
 
-					<a href="<?=url('show/listing/clients')?>" class="btn btn-info">
+<!--					<a href="<?=url('show/listing/clients')?>" class="btn btn-info">
 						<span class="bigger-150"> <?=$obj->lastmonth?> </span>
 						<br>
 						This mo
-					</a>
+					</a> 
 					<a href="<?=url('show/listing/clients')?>" class="btn btn-info">
 						<span class="bigger-150"> <?=$obj->lastweek?> </span>
 						<br>
 						This wk
-					</a>
+					</a> -->
 					<a href="<?=url('show/listing/clients')?>" class="btn btn-info">
 						<span class="bigger-150"> <?=$obj->today?> </span>
 						<br>

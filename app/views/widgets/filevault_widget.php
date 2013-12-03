@@ -4,14 +4,15 @@
 
 				<div class="panel-heading">
 
-					<h3 class="panel-title"><i class="icon-lock"></i> Filevault 2 status</h3>
+					<h3 class="panel-title"><i class="icon-lock"></i> Encyption status</h3>
 				
 				</div>
 
 				<div class="list-group">
 
 				<?	$fv = new filevault_status_model(); 
-					$sql = "SELECT count(1) AS count, filevault_status FROM filevault_status GROUP BY filevault_status ORDER BY filevault_status";
+$sql= "SELECT count(1) AS count,filevault_status FROM  filevault_status INNER join machine on filevault_status.serial_number = machine.serial_number  where machine_desc like \"MacBook%\"";
+#$sql = "SELECT count(1) AS count, filevault_status FROM filevault_status GROUP BY filevault_status ORDER BY filevault_status";
 					$cnt = 0;
 				?>
 					<?foreach($fv->query($sql) as $obj):?>
@@ -22,9 +23,6 @@
 					<?$cnt++?>
 					</a>
 					<?endforeach?>
-					<?if( ! $cnt):?>
-						<span class="list-group-item">No Filevault status available</span>
-					<?endif?>
 
 				</div>
 

@@ -1,6 +1,7 @@
 <?php
 define( 'KISS', 1 );
 
+
 // Front controller
 define('FC', __FILE__ .'/' );
 

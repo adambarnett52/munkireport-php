@@ -87,7 +87,7 @@ new Directory_service_model;
 <!--        <th data-colname='directoryservice#directory_service_comments'>AD Comments</th> -->
 <!--			<th data-colname='directoryservice#createmobileaccount'>Mobile account</th> -->
 <!--				<th data-colname='directoryservice#networkprotocoltobeused'>Network protocol</th>-->
-				<th data-colname='directoryservice#allowedadmingroups'>Allowed admin groups</th>
+<!--				<th data-colname='directoryservice#allowedadmingroups'>Allowed admin groups</th> -->
 		      </tr>
 		    </thead>
 		    <tbody>

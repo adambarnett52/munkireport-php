@@ -30,7 +30,9 @@
 
     <?$this->view('widgets/extended_hardware_widget')?>
 
-    <?$this->view('widgets/manifests_widget')?>
+
+    <?$this->view('widgets/pending_munki_widget')?>
+
 
     <?$this->view('widgets/warranty_graph_widget')?>
 

@@ -144,6 +144,8 @@
 	*/
 	$conf['vnc_link'] = "vnc://%s:5900";
 	
+	
+
 	/*
 	|===============================================
 	| Inventory - bundle ignore list

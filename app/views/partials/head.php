@@ -11,7 +11,9 @@
   <link rel="stylesheet" type="text/css" media="screen" href="<?=conf('subdirectory')?>assets/css/dataTables-bootstrap.css" />
   <link href="<?=conf('subdirectory')?>assets/css/font-awesome.min.css" rel="stylesheet">
   <script src="<?=conf('subdirectory')?>assets/js/jquery.js"></script>
-
+  <?if(conf('custom_css')):?> 
+  <link rel="stylesheet" href="<?=conf('custom_css')?>" />
+ <?endif?>
 
 <?php
   if (isset($scripts))

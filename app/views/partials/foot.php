@@ -39,6 +39,8 @@
   <script src="<?=conf('subdirectory')?>assets/js/moment.min.js"></script>
   <script src="<?=conf('subdirectory')?>assets/js/flotr2.js"></script>
   <script src="<?=conf('subdirectory')?>assets/js/munkireport.js"></script>
-
+  <?if(conf('custom_js')):?> 
+  <script src="<?=conf('custom_js')?>"></script>
+  <?endif?>
 </body>
 </html>

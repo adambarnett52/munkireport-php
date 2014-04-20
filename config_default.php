@@ -367,4 +367,10 @@
 	*/
 	$conf['debug'] = FALSE;
 	
-	
+	/*
+	|===============================================
+	|  Custom css and js
+	|===============================================
+	*/
+	 $conf['custom_css'] = '/custom.css';
+	// conf['custom_js'] = '/custom.js';	
